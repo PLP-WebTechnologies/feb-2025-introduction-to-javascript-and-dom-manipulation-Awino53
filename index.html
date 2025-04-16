@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript and DOM Manipulation</title>
+  <style>
+    /* Some basic styling for the page */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #dynamicText {
+      color: blue;
+      font-size: 20px;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JavaScript and DOM Manipulation</h1>
+    <p>Click the button to change text, style, and add/remove elements!</p>
+  </header>
+
+  <section>
+    <p id="dynamicText">This text will be changed dynamically using JavaScript.</p>
+    <button id="changeTextButton">Change Text</button>
+    <button id="changeStyleButton">Change Style</button>
+    <button id="addElementButton">Add New Element</button>
+    <button id="removeElementButton">Remove Last Element</button>
+  </section>
+
+  <section id="dynamicElements">
+    <!-- New elements will be added here dynamically -->
+  </section>
+
+  <footer>
+    <p>Created for DOM manipulation practice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
